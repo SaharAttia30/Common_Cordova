@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Src</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <h1>Iris Species Classifier</h1>
+  <label for="stem_length">Stem Length:</label>
+  <input type="text" id="stem_length" name="stem_length" [(ngModel)]="stemLength"><br><br>
+  <label for="stem_width">Stem Width:</label>
+  <input type="text" id="stem_width" name="stem_width" [(ngModel)]="stemWidth"><br><br>
+  <label for="blade_length">Blade Length:</label>
+  <input type="text" id="blade_length" name="blade_length" [(ngModel)]="bladeLength"><br><br>
+  <label for="blade_width">Blade Width:</label>
+  <input type="text" id="blade_width" name="blade_width" [(ngModel)]="bladeWidth"><br><br>
+  
+  <app-root></app-root>
+  <script src="cordova.js"></script>
+  <script src="runtime-es2015.js" type="module"></script>
+  <script src="polyfills-es2015.js" type="module"></script>
+  <script src="main-es2015.js" type="module"></script>
+</body>
+
+</html>
