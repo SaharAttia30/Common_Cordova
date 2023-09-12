@@ -1,7 +1,0 @@
-npm install @angular/cli
-ng new src --directory=www --skip-tests --skip-git
-ng build --prod
-<script src="cordova.js"></script>
-<script src="runtime-es2015.js" type="module"></script>
-<script src="polyfills-es2015.js" type="module"></script>
-<script src="main-es2015.js" type="module"></script>
